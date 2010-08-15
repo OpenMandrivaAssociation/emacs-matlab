@@ -1,7 +1,7 @@
 %define tarname	matlab-emacs
 %define name	emacs-matlab
 %define version 3.3.1
-%define rel	1.23
+%define rel	1.25
 %define release %mkrel 0.cvs%{rel}
 
 Summary:	Matlab mode for emacs
