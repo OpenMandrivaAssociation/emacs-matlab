@@ -14,8 +14,8 @@ Group:		Editors
 Url: 		http://matlab-emacs.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-Requires:	emacs, emacs-cedet >= 1.0
-BuildRequires:	emacs, emacs-cedet >= 1.0
+Requires:	emacs, emacs-cedet >= 0:1.0-1
+BuildRequires:	emacs, emacs-cedet >= 0:1.0-1
 
 %description
 Matlab mode for emacs.
