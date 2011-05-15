@@ -2,7 +2,7 @@
 %define name	emacs-matlab
 %define version 3.3.1
 %define rel	1.30
-%define release %mkrel 0.cvs%{rel}
+%define release %mkrel 1.cvs%{rel}
 
 Summary:	Matlab mode for emacs
 Name:		%{name}
@@ -14,8 +14,8 @@ Group:		Editors
 Url: 		http://matlab-emacs.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-Requires:	emacs, emacs-cedet >= 1.0-0.pre6.3
-BuildRequires:	emacs, emacs-cedet >= 1.0-0.pre6.3
+Requires:	emacs, emacs-cedet >= 1.0
+BuildRequires:	emacs, emacs-cedet >= 1.0
 
 %description
 Matlab mode for emacs.
