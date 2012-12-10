@@ -56,3 +56,25 @@ EOF
 %doc ChangeLog* README
 %{_datadir}/emacs/site-lisp/matlab
 %config(noreplace) %{_sysconfdir}/emacs/site-start.d/matlab-load.*
+
+
+%changelog
+* Sun May 15 2011 Lev Givon <lev@mandriva.org> 3.3.1-1.cvs1.30mdv2011.0
++ Revision: 674858
+- Require cedet 1.0 (integrated cedet in emacs 23.2+ insufficient).
+- Update to 1.30.
+- Update to release 1.28 from CVS.
+- Update to revision 1.25.
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - rebuild
+
+* Tue Feb 02 2010 Lev Givon <lev@mandriva.org> 3.3.1-0.cvs1.23mdv2010.1
++ Revision: 499781
+- Update to latest version.
+
+* Fri Jun 12 2009 Lev Givon <lev@mandriva.org> 3.2.0-1mdv2010.0
++ Revision: 385588
+- imported package emacs-matlab
+
+
