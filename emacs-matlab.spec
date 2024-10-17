@@ -6,7 +6,7 @@ Version:	3.3.1
 Release:	2.%{git}.1
 License:	GPLv2+
 Group:		Editors
-Url: 		http://matlab-emacs.sourceforge.net/
+Url: 		https://matlab-emacs.sourceforge.net/
 Source0:	matlab-emacs-%{git}.tar.bz2
 BuildRequires:	emacs
 BuildRequires:	emacs-cedet
